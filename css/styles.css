@@ -55,7 +55,7 @@ body{
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus
+.navigation-list-link:focus,
 .header-tel-link:hover,
 .header-tel-link:focus,
 .header-mail-link:hover,
@@ -177,3 +177,35 @@ color: var(--white-color);
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* СТИЛИ СТРАНИЧКИ ПОРТФОЛИО */
+
+.filter-list-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.filter-list-item:hover,
+.filter-list-item:focus{
+    background: var(--acent-color);
+    color: var(--white-color);
+}
+
+.work-examples-list .subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
