@@ -44,6 +44,7 @@ body{
 .navigation-list-link,
 .header-tel-link,
 .header-mail-link{
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -71,14 +72,15 @@ body{
 /* hero секция */
 
 .hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1,36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-background: rgba(47, 48, 58, 0.8);
-color: var(--white-color);
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--white-color);
 }
 
 .modal-btn{
@@ -91,7 +93,7 @@ color: var(--white-color);
 .description-subtitle{
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
@@ -101,7 +103,7 @@ color: var(--white-color);
 .description-list-item{
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -114,7 +116,7 @@ color: var(--white-color);
 .subtitle{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -123,7 +125,7 @@ color: var(--white-color);
 .caption{
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
@@ -138,7 +140,7 @@ color: var(--white-color);
 .team-list-item-subtitle{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -147,7 +149,7 @@ color: var(--white-color);
 .team-position{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -163,7 +165,7 @@ color: var(--white-color);
 .footer-address-list-item{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
@@ -172,7 +174,7 @@ color: var(--white-color);
 .footer-tel-link{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -182,7 +184,7 @@ color: var(--white-color);
 .filter-list-item{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -205,7 +207,8 @@ color: var(--white-color);
 .desc{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(--main-color);
 }
